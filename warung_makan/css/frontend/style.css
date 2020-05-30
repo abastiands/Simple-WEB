@@ -1,0 +1,280 @@
+body, ul, li{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    height: 50px;
+    background-color: #ffffff;
+    padding: 0px 80px;
+    border-bottom: 5px solid #000000;
+}
+
+.header-left{
+    float: left;
+    width: 15%;
+}
+
+.header-logo-name{
+    padding: 10px 0;
+}
+
+.header-logo-name a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    text-shadow: 5px 5px 5px #aaaaaa;
+}
+
+.menu-bar{
+    float: left;
+    width: 35%;
+    margin: 10px 30px;
+}
+
+.menu-bar ul{
+    list-style: none;
+}
+
+.menu-bar ul a{
+    text-decoration: none;
+    color: #000000;
+    float: left;
+    padding: 5px 20px;
+    background-color: #e8e8e8;
+    margin-left: 20px;
+    border: 1px solid #000000;
+    font-size: 14px;
+}
+
+.menu-bar ul a:hover{
+    background-color: #cccccc;
+}
+
+.menu-bar ul a:first-child{
+    margin-left: 0;
+}
+
+.header-button{
+    float: right;
+    margin: 10px 0;
+}
+
+.header-button button{
+    width: 70px;
+    height: 30px;
+}
+
+.main{
+    clear: both;
+    padding: 10px 80px;
+    padding-bottom: 50px;
+    min-height: 700px;
+    background-color: #e8e8e8;
+}
+
+.product{
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+    margin: 20px 30px 20px 0px;
+    padding: 20px 10px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    box-shadow: 10px 10px #cccccc;
+}
+
+.product-images{
+    width: 200px;
+    height: 150px;
+    padding: 0px 25px;
+}
+
+.product-images img{
+    width: 100%;
+    height: 100%;
+}
+
+.product-name{
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.product-price{
+    font-size: 18px;
+    text-align: center;
+}
+
+.product-button{
+    padding: 10px 100px;
+}
+
+.product button{
+    width: 50px;
+    height: 30px;
+}
+
+.aboutus{
+    padding: 20px;
+    height: 500px;
+    background-color: #ffffff;
+}
+
+.aboutus h1{
+    text-align: center;
+}
+
+.aboutus-logo{
+    margin: 20px 470px;
+    width: 200px;
+    height: 200px;
+    border: 5px solid #000000;
+    box-shadow: 10px 10px #cccccc;
+    border-radius: 10px;
+}
+
+.aboutus-logo img{
+    width: 100%;
+    height: 100%;
+}
+
+.contactus{
+    padding: 20px;
+    height: 500px;
+    background-color: #ffffff;
+}
+
+.contactus h1{
+    text-align: center;
+}
+
+.contactus-nama{
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.contactus-nama input{
+    width: 400px;
+    height: 20px;
+    padding: 10px;
+}
+
+.contactus-email{
+    display: inline-block;
+}
+
+.contactus-email input{
+    width: 400px;
+    height: 20px;
+    padding: 10px;
+}
+
+.contactus-deskripsi textarea{
+    padding: 10px;
+}
+
+.contactus-button{
+    padding-top: 10px;
+}
+
+.contactus-button button{
+    width: 100px;
+    height: 50px;
+}
+
+.login{
+	margin-left: 500px;
+	margin-top: 200px;
+	border: 1px solid #CCC;
+	box-shadow: 0 0 20px #CCC;
+	width: 300px;
+	padding: 20px;
+	float: left;
+}
+
+input{
+	padding: 5px;
+}
+
+.login-header{
+	text-align: center;
+}
+
+.login-submit{
+    padding-top: 10px;
+    margin-left: 15px;
+    display: inline-block;
+}
+
+.login-cancel{
+    display: inline-block;
+}
+
+.login-back{
+    display: inline-block;
+}
+
+.login-submit button{
+    width: 80px;
+    height: 30px;
+}
+
+.login-cancel button{
+    width: 80px;
+    height: 30px;
+}
+
+.login-back button{
+    width: 80px;
+    height: 30px;
+}
+
+.register{
+	margin-left: 500px;
+	margin-top: 100px;
+	border: 1px solid #CCC;
+	box-shadow: 0 0 20px #CCC;
+	width: 300px;
+	padding: 20px;
+	float: left;
+}
+
+input{
+	padding: 5px;
+}
+
+.register-header h2{
+	text-align: center;
+}
+
+.register-submit{
+    padding-top: 10px;
+    margin-left: 110px;
+    display: inline-block;
+}
+
+.register-cancel{
+    display: inline-block;
+}
+
+.register-submit input{
+    width: 80px;
+    height: 30px;
+}
+
+.register-cancel input{
+    width: 80px;
+    height: 30px;
+}
+
+.footer{
+    clear: both;
+    padding-bottom: 20px;
+    height: 30px;
+    text-align: center;
+    border-top: 5px solid #000000;
+}

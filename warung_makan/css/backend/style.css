@@ -1,0 +1,215 @@
+body, ul, li{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+	box-shadow:0 0 10px #333;
+    margin: 0 100px;
+}
+
+.header{
+    width: 100%;
+    height: 50px;
+    background-color: #0037ff;
+}
+
+.header-left{
+    padding-top: 15px;
+    padding-left: 50px;
+    font-size: 18px;
+    float: left;
+    color: #ffffff;
+}
+
+.header-left a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.header-right{
+    padding-top: 8px;
+    padding-right: 50px;
+    float: right;
+}
+
+.header-right button{
+    width: 80px;
+    height: 30px;
+}
+
+.fix{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.dashboard-main a{
+    margin: 0 20px;
+    text-decoration: none;
+    color: #000000;
+    float: left;
+    padding: 30px;
+    width: 100px;
+    height: 20px;
+    background-color: #00ffff;
+    text-align: center;
+    border: 1px solid #000000;
+    box-shadow: 5px 5px #cccccc;
+    border-radius: 20px 20px;
+}
+
+.dashboard-main a:hover{
+    color: #ffffff;
+    background-color: #004a4a;
+}
+
+.dashboard-main a:first-child{
+    margin-left: 0px;
+}
+
+.dashboard-main ul li{
+    list-style: none;
+}
+
+.fix-input{
+    padding-bottom: 30px;
+}
+
+.fix-input input{
+    width: 100px;
+    height: 50px;
+}
+
+.fix-table tr td img{
+    width: 50px;
+    height: 50px;
+    position: center;
+}
+
+.option-button button{
+    width: 60px;
+    height: 30px;
+}
+
+.table-design{
+	border-spacing: 0;
+    border-collapse: collapse;
+    border: 1px solid #000000;
+    box-shadow: 5px 5px #cccccc;
+}
+
+.table-design th{
+    height: 20px;
+}
+
+.table-design td{
+    width: 50px;
+    height: 10px;
+    padding: 10px;
+}
+
+.content-main{
+    padding-left: 50px;
+}
+
+.form-main tr td input{
+    padding: 10px;
+}
+
+.form-main tr td select{
+    width: 193px;
+    height: 40px;
+}
+
+.btn{
+    margin-top: 10px;
+    width: 100px;
+    height: 50px;
+}
+
+.logout{
+    background-color: #ffffff;
+    border: none;
+    color: #000000;
+    padding: 8px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 2px 2px;
+    cursor: pointer;
+}
+
+.main{
+    width: 100%;
+    height: 700px;
+    background-color: #ffffff;
+}
+
+.navbar{
+    width: 15%;
+    height: 100%;
+    float: left;
+    background-color: #4a8fe4;
+}
+
+.navbar a{
+    text-decoration: none;
+}
+
+.navbar ul li{
+    padding: 10px;
+    padding-left: 30px;
+    list-style: none;
+    border: 1px solid #000000;
+    background-color: #00ffad;
+}
+
+.navbar ul li:hover{
+    border: 3px solid #e2f595;
+    background-color: #00ffff;
+}
+
+.navbar font{
+    color: #000000;
+}
+
+.content{
+    width: 85%;
+    height: 100%;
+    float: right;
+}
+
+.login{
+	margin-left: 500px;
+	margin-top: 200px;
+	border: 1px solid #CCC;
+	box-shadow: 0 0 20px #CCC;
+	width: 280px;
+	padding: 20px;
+	float: left;
+}
+
+input{
+	padding: 5px;
+}
+
+.login-header{
+	text-align: center;
+}
+
+.place button{
+	margin-top: 10px;
+    margin-left: 80px;
+    width: 80px;
+    height: 30px;
+}
+
+.footer{
+    color: #ffffff;
+    text-align: center;
+    padding-top: 5px;
+    width: 100%;
+    height: 50px;
+    background-color: #0037ff;
+}
